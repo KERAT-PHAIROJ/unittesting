@@ -26,3 +26,20 @@ def count_unique(list):
 
 
 count_unique(list)
+
+
+
+def binary_search(list,element):
+    left = 0
+    right = len(list)-1
+    element == list[element]
+    [mid] = (left + right)//2
+    if list[mid]<element :
+         left = [mid] + 1
+    elif list[mid]> element:
+        right = [mid] +1
+    elif list[mid] == element:
+        return element
+    elif left > right:
+        return -1
+

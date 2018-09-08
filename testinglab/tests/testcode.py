@@ -31,3 +31,9 @@ def test_extreme_case(self):
     for i in range(0, 500000):
         list.append(2)
     self.assertEqual(1, count_unique(list))
+
+
+
+def test_binary_case(self):
+    list = ["1", "2"]
+    self.assertEqual(1, test_binary_case(list))
